@@ -1,0 +1,64 @@
+@font-face {
+  font-family: Montserrat;
+  src: url('~assets/fonts/Montserrat-Regular.ttf');
+}
+
+body {
+  background-color: #424242;
+  font-family: Montserrat;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:hover {
+  box-shadow: 3px 3px rgba(0,0,0,0.7);
+}
+
+.contenedor-morado_primario {
+  color: #fff;
+  background-color: #5C6BC0;
+}
+
+.contenedor-verde_primario {
+  color: #fff;
+  background-color: #80CBC4;
+}
+
+.boton-primario {
+  padding: 1rem;
+  font-size: 1.1rem;
+  border-radius: .7rem;
+  border-style: none;
+}
+
+.color-azul_boton {
+  background-color: #64B5F6;
+  color: #fff;
+}
+
+.color-rojo_boton {
+  background-color: #D32F2F;
+  color: #fff;
+}
+
+.boton-redendeado {
+  background-color: #fff;
+  width: 3.5rem;
+  height: 3.5rem;
+  font-size: 1.7rem;
+  border-style: none;
+  border-radius: 5rem;
+  padding: .2rem;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.color-rojo_primario {
+  color: #FF1744;
+}
+
+.color-verde_primario {
+  color: #2E7D32;
+}
